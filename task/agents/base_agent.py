@@ -179,3 +179,4 @@ class BaseAgent:
                     self.state[tool_name] = {
                         TOOL_CALL_HISTORY_KEY: agent_tool_history
                     }
+
