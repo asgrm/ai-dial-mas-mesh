@@ -16,6 +16,7 @@ class CalculationsAgentTool(BaseAgentTool):
     def deployment_name(self) -> str:
         return "calculations-agent"
 
+    @property
     def name(self) -> str:
         return "calculations_agent"
 
